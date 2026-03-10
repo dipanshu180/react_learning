@@ -1,0 +1,4 @@
+How to Style React componenet with css
+1. External
+2. MOdules - creating a new file and then doing everything there it provide unique class name drawback is that additional set require     
+3. Inline css styling - styling the css in function only
