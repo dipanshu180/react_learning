@@ -10,6 +10,10 @@ import Click from './Click.jsx'
 import ReactHook  from './ReactHook.jsx'
 import Counter from './Counter.jsx'
 import OnChange from './OnChange.jsx'
+import ColorPicker from './ColorPicker.jsx'
+import UpdateObject from './UpdateObject.jsx'
+import ArrayUpdate from './ArrayUpdate.jsx'
+import TodoList from './ToDoList.jsx'
 function App() {
   return(
     // <Header></Header>
@@ -39,6 +43,10 @@ function App() {
         <ReactHook/>
         <Counter/>
         <OnChange/>
+        <ColorPicker/>
+        <UpdateObject/>
+        <ArrayUpdate/>
+        <TodoList/>
 
     </>
   )  
