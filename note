@@ -27,4 +27,17 @@ onChange is an event that runs a function whenever the value of an input field c
 
 Updater Function - A function passsed as an argument to setState() usually 
 ex  (setYear + 1)
-Allow for safe updates based on the previous state  
+Allow for safe updates based on the previous state
+
+useEffect() - React hook that tells react to do some code when (pick one) 
+                this component rerender
+                this components mount
+                The state of the value
+useEffect is used to run code after a component renders (or updates).
+Why Do We Use useEffect?
+We use it for things like:
+✔ API calls
+✔ Fetch data
+✔ Timers
+✔ Event listeners
+✔ Console logs

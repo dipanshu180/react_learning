@@ -14,6 +14,8 @@ import ColorPicker from './ColorPicker.jsx'
 import UpdateObject from './UpdateObject.jsx'
 import ArrayUpdate from './ArrayUpdate.jsx'
 import TodoList from './ToDoList.jsx'
+import UseEffect from './UseEffect.jsx'
+import DigitalClock from './DigitalClock.jsx'
 function App() {
   return(
     // <Header></Header>
@@ -23,7 +25,7 @@ function App() {
     //   <Footer/> */}
     // </>
     <>
-        <Card/>
+        {/* <Card/>
         <Button/>
         <Card/>
         <Button/> 
@@ -46,7 +48,9 @@ function App() {
         <ColorPicker/>
         <UpdateObject/>
         <ArrayUpdate/>
-        <TodoList/>
+        <TodoList/> */}
+        {/* <UseEffect/> */}
+        <DigitalClock/>
 
     </>
   )  
